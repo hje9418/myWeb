@@ -1,0 +1,46 @@
+/* mystyle.css */
+/* charset=utf-8 */
+
+body {
+   		background-color:white;
+  	  	font: 13px Montserrat, sans-serif;
+  	 	margin:0;         /*바깥쪽 여백*/
+		padding:0;        /*안쪽 여백*/
+		color:#f5f6f7;
+		line-height:10px; /*줄간격*/
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 60px;}
+  .bg-1 { 
+    background-color: #e4e0de; /* 가운데 배경 */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: gray; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
